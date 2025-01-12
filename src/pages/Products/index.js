@@ -1,7 +1,12 @@
 import React from 'react';
-
-const Header = () => {
-  return <h1>Welcome to the product Page</h1>;
+import products from '../../context/Data'
+import Card from '../../components/ProductCard';
+const Products = () => {
+  return (
+    <div>
+      {products.map((pro)=><Card items={pro}/>)}
+    </div>
+  )
 };
 
-export default Header;
+export default Products;

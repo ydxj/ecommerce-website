@@ -7,7 +7,7 @@ import RoutesConfig from './routes';
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+     <Header />
       <RoutesConfig />
       <Footer />
     </BrowserRouter>

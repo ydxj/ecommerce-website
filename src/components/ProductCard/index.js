@@ -1,7 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './card.css';
 
-const Header = () => {
-  return <h1>Welcome to the product Page</h1>;
+const Card = (props) => {
+  const products = props.items;
+  const [liked, setLiked] = useState(false); 
+
+  const handleHeartClick = () => {
+    setLiked(!liked); 
+  };
+
+  return (
+    <div className="card-container">
+      <div className="card">
+        <img src='img1.jpg' alt="Product" />
+        <h3>{products.name}</h3>
+        <p>{products.short_description}</p>
+        <h6>{products.price}</h6>
+        <button>Ajouter Au Panier</button>
+        <span 
+          className={`heart ${liked ? 'liked' : ''}`} 
+          onClick={handleHeartClick}
+        >
+          ♥
+        </span>
+      </div>
+    </div>
+  );
 };
 
-export default Header;
+export default Card;
