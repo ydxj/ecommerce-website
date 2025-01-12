@@ -1,6 +1,12 @@
+import Products from "../Products";
+
 const Home = () => {
     console.log('Home Page Rendered');
-    return <h1>Welcome to the Home Page</h1>;
+    return (
+        <div>
+            <Products />
+        </div>
+    );
 };
 export default Home
   

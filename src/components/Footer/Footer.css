@@ -57,7 +57,7 @@
 }
 
 .footer-navigation a:hover, .footer-guide a:hover, .footer-products a:hover, .footer-social a:hover {
-  color: #007bff;
+  color: #00ff04;
 }
 
 .footer-navigation a svg, .footer-guide a svg, .footer-products a svg, .footer-social a svg {
@@ -121,7 +121,7 @@
   color: #007bff;
 }
 
-/* Style pour le h1 de l'adresse */
+
 .footer-info h1 {
   font-size: 1.2rem;
   color: #333;
