@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Header = () => {
+const Checkout = () => {
   return <h1>Welcome to the Checkout Page</h1>;
 };
 
-export default Header;
+export default Checkout;
