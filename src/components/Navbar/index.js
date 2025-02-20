@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import products from "../../context/Data";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,10 +30,7 @@ const Navbar = () => {
           />
           <select className="category-select">
             <option value="all">All Categories</option>
-            <option value="electronics">Electronics</option>
-            <option value="fashion">Fashion</option>
-            <option value="home">Home & Garden</option>
-            <option value="sports">Sports & Outdoors</option>
+            {products.map(u=> <option value={u.category}>{u.category}</option>)}
           </select>
           <button className="search-button">
             <i className="fas fa-search"></i>
