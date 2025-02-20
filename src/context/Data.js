@@ -4,8 +4,8 @@ const products = [
         "name": "Transparent Storage Box",
         "category": "Office Organization",
         "images": [
-            "images/transparent_box_1.jpg",
-            "images/transparent_box_2.jpg"
+            "Photos/transparent_box_1.jpg",
+            "Photos/transparent_box_2.jpg"
         ],
         "short_description": "Durable transparent box for office supplies.",
         "big_description": "A versatile transparent storage box made from durable acrylic material. Perfect for storing office supplies such as pens, paper, cables, or other small items. Its clear design ensures easy visibility of contents, while its stackable feature saves space.",
@@ -22,8 +22,8 @@ const products = [
         "name": "Stackable Drawer Organizer",
         "category": "Office Organization",
         "images": [
-            "images/drawer_organizer_1.jpg",
-            "images/drawer_organizer_2.jpg"
+            "Photos/drawer_organizer_1.jpg",
+            "Photos/drawer_organizer_2.jpg"
         ],
         "short_description": "Compact and stackable organizer for drawers.",
         "big_description": "A stackable drawer organizer with adjustable compartments to keep your drawers neat and tidy. Made of high-quality, durable plastic, it can hold stationery, cables, or small tools efficiently. The clean, modern design complements any workspace.",
@@ -40,8 +40,8 @@ const products = [
         "name": "Makeup Organizer Box",
         "category": "Makeup Organization",
         "images": [
-            "images/makeup_box_1.jpg",
-            "images/makeup_box_2.jpg"
+            "Photos/makeup_box_1.jpg",
+            "Photos/makeup_box_2.jpg"
         ],
         "short_description": "Stylish makeup organizer with compartments.",
         "big_description": "A sleek acrylic makeup organizer featuring compartments of various sizes to accommodate brushes, lipsticks, palettes, and other beauty essentials. Its modern design and compact build make it a perfect addition to your vanity or bathroom counter.",
@@ -58,8 +58,8 @@ const products = [
         "name": "Kitchen Storage Bin Set",
         "category": "Kitchen Organization",
         "images": [
-            "images/kitchen_bin_1.jpg",
-            "images/kitchen_bin_2.jpg"
+            "Photos/kitchen_bin_1.jpg",
+            "Photos/kitchen_bin_2.jpg"
         ],
         "short_description": "Set of 4 clear bins for pantry organization.",
         "big_description": "This set of 4 durable plastic bins is designed for pantry organization. Each bin features easy-grip handles and is made from BPA-free materials. Perfect for storing snacks, dry goods, or spices, and the transparent design allows for easy visibility.",
@@ -76,8 +76,8 @@ const products = [
         "name": "Under-Bed Storage Bag",
         "category": "Bedroom Organization",
         "images": [
-            "images/underbed_bag_1.jpg",
-            "images/underbed_bag_2.jpg"
+            "Photos/underbed_bag_1.jpg",
+            "Photos/underbed_bag_2.jpg"
         ],
         "short_description": "Breathable storage bag for under-bed use.",
         "big_description": "A large under-bed storage bag made from breathable fabric, perfect for keeping seasonal clothes, linens, or shoes dust-free. Features a durable zipper and handles for easy access and portability. An excellent solution for saving space in your bedroom.",
@@ -94,8 +94,8 @@ const products = [
         "name": "Multi-Purpose Storage Cube",
         "category": "Living Room Organization",
         "images": [
-            "images/storage_cube_1.jpg",
-            "images/storage_cube_2.jpg"
+            "Photos/storage_cube_1.jpg",
+            "Photos/storage_cube_2.jpg"
         ],
         "short_description": "Stylish cube for multi-purpose storage.",
         "big_description": "This fabric-covered storage cube offers a versatile solution for organizing books, toys, or clothes. Its collapsible design allows easy storage when not in use, and the modern finish ensures it blends perfectly with living room decor.",
@@ -112,8 +112,8 @@ const products = [
         "name": "Wall-Mounted Key Holder",
         "category": "Entryway Organization",
         "images": [
-            "images/key_holder_1.jpg",
-            "images/key_holder_2.jpg"
+            "Photos/key_holder_1.jpg",
+            "Photos/key_holder_2.jpg"
         ],
         "short_description": "Wall-mounted key holder with hooks.",
         "big_description": "Keep your keys and small items organized with this sleek, wall-mounted key holder. Featuring 5 sturdy hooks and a small tray for mail or wallets, it's a functional and stylish addition to your entryway.",
@@ -130,8 +130,8 @@ const products = [
         "name": "Rotating Spice Rack",
         "category": "Kitchen Organization",
         "images": [
-            "images/spice_rack_1.jpg",
-            "images/spice_rack_2.jpg"
+            "Photos/spice_rack_1.jpg",
+            "Photos/spice_rack_2.jpg"
         ],
         "short_description": "Compact rotating spice rack with jars.",
         "big_description": "A space-saving spice rack featuring a rotating base and 12 glass jars with airtight lids. The compact design fits perfectly on kitchen counters, making it easy to access your spices while cooking. Comes pre-labeled for convenience.",
@@ -148,8 +148,8 @@ const products = [
         "name": "Desktop File Organizer",
         "category": "Office Organization",
         "images": [
-            "images/file_organizer_1.jpg",
-            "images/file_organizer_2.jpg"
+            "Photos/file_organizer_1.jpg",
+            "Photos/file_organizer_2.jpg"
         ],
         "short_description": "Modern file organizer for desks.",
         "big_description": "A modern file organizer with multiple tiers to keep your documents and folders neatly arranged. Made of metal mesh, it offers durability and a sleek look, perfect for any office desk setup.",
@@ -166,8 +166,8 @@ const products = [
         "name": "Hanging Shoe Organizer",
         "category": "Bedroom Organization",
         "images": [
-            "images/shoe_organizer_1.jpg",
-            "images/shoe_organizer_2.jpg"
+            "Photos/shoe_organizer_1.jpg",
+            "Photos/shoe_organizer_2.jpg"
         ],
         "short_description": "Space-saving hanging shoe organizer.",
         "big_description": "A hanging shoe organizer with 10 compartments, designed to fit over closet rods or doors. Ideal for keeping your shoes, accessories, or folded clothes organized and accessible while saving closet space.",
@@ -184,8 +184,8 @@ const products = [
         "name": "Foldable Laundry Hamper",
         "category": "Laundry Organization",
         "images": [
-            "images/laundry_hamper_1.jpg",
-            "images/laundry_hamper_2.jpg"
+            "Photos/laundry_hamper_1.jpg",
+            "Photos/laundry_hamper_2.jpg"
         ],
         "short_description": "Lightweight, foldable laundry hamper.",
         "big_description": "A durable and lightweight laundry hamper with a foldable design, making it easy to store when not in use. Features a sturdy frame, breathable mesh fabric, and reinforced handles for convenient carrying. Perfect for laundry rooms or dorms.",
@@ -202,8 +202,8 @@ const products = [
         "name": "Cable Management Box",
         "category": "Tech Organization",
         "images": [
-            "images/cable_box_1.jpg",
-            "images/cable_box_2.jpg"
+            "Photos/cable_box_1.jpg",
+            "Photos/cable_box_2.jpg"
         ],
         "short_description": "Sleek cable management box for desks.",
         "big_description": "Keep your workspace tidy with this sleek cable management box. Designed to conceal power strips and cables, it features ventilation holes to prevent overheating and a modern design that blends well with any decor.",
@@ -220,8 +220,8 @@ const products = [
         "name": "Bamboo Utensil Drawer Organizer",
         "category": "Kitchen Organization",
         "images": [
-            "images/utensil_organizer_1.jpg",
-            "images/utensil_organizer_2.jpg"
+            "Photos/utensil_organizer_1.jpg",
+            "Photos/utensil_organizer_2.jpg"
         ],
         "short_description": "Adjustable bamboo organizer for utensils.",
         "big_description": "A premium bamboo utensil organizer with adjustable compartments. Perfect for arranging cutlery, tools, or gadgets in your kitchen drawer. Made of eco-friendly bamboo with a smooth finish, it adds a natural touch to your kitchen.",
@@ -238,8 +238,8 @@ const products = [
         "name": "Over-the-Door Towel Rack",
         "category": "Bathroom Organization",
         "images": [
-            "images/towel_rack_1.jpg",
-            "images/towel_rack_2.jpg"
+            "Photos/towel_rack_1.jpg",
+            "Photos/towel_rack_2.jpg"
         ],
         "short_description": "Space-saving towel rack for bathrooms.",
         "big_description": "An over-the-door towel rack with three adjustable bars, providing ample storage for towels, robes, or clothes. Easy to install and fits most standard doors, it's an ideal space-saving solution for small bathrooms.",
@@ -256,8 +256,8 @@ const products = [
         "name": "Jewelry Storage Box",
         "category": "Accessories Organization",
         "images": [
-            "images/jewelry_box_1.jpg",
-            "images/jewelry_box_2.jpg"
+            "Photos/jewelry_box_1.jpg",
+            "Photos/jewelry_box_2.jpg"
         ],
         "short_description": "Elegant jewelry organizer box.",
         "big_description": "A sophisticated jewelry storage box with multiple layers and compartments for rings, necklaces, earrings, and bracelets. Features a velvet-lined interior to protect your valuables and a locking mechanism for added security.",
@@ -274,8 +274,8 @@ const products = [
         "name": "Rotating Makeup Carousel",
         "category": "Makeup Organization",
         "images": [
-            "images/makeup_carousel_1.jpg",
-            "images/makeup_carousel_2.jpg"
+            "Photos/makeup_carousel_1.jpg",
+            "Photos/makeup_carousel_2.jpg"
         ],
         "short_description": "360-degree rotating makeup organizer.",
         "big_description": "This rotating makeup organizer provides 360-degree access to all your beauty products. With adjustable shelves and a stylish design, it can hold a wide variety of items, from skincare bottles to lipsticks.",
@@ -292,8 +292,8 @@ const products = [
         "name": "Collapsible Storage Ottoman",
         "category": "Living Room Organization",
         "images": [
-            "images/storage_ottoman_1.jpg",
-            "images/storage_ottoman_2.jpg"
+            "Photos/storage_ottoman_1.jpg",
+            "Photos/storage_ottoman_2.jpg"
         ],
         "short_description": "Stylish storage ottoman with cushion top.",
         "big_description": "A multifunctional storage ottoman that doubles as a seat. Features a removable cushion top and a spacious interior for storing blankets, toys, or magazines. Collapsible design makes it easy to store when not in use.",
@@ -310,8 +310,8 @@ const products = [
         "name": "Expandable Dish Rack",
         "category": "Kitchen Organization",
         "images": [
-            "images/dish_rack_1.jpg",
-            "images/dish_rack_2.jpg"
+            "Photos/dish_rack_1.jpg",
+            "Photos/dish_rack_2.jpg"
         ],
         "short_description": "Expandable dish rack for kitchens.",
         "big_description": "An expandable dish rack made from rust-resistant stainless steel. Features a drip tray and adjustable compartments to hold plates, bowls, and cutlery. Perfect for both small and large kitchens.",
@@ -328,8 +328,8 @@ const products = [
         "name": "Hanging Closet Organizer",
         "category": "Bedroom Organization",
         "images": [
-            "images/closet_organizer_1.jpg",
-            "images/closet_organizer_2.jpg"
+            "Photos/closet_organizer_1.jpg",
+            "Photos/closet_organizer_2.jpg"
         ],
         "short_description": "6-shelf hanging closet organizer.",
         "big_description": "A fabric hanging closet organizer with six shelves to store clothes, shoes, or accessories. Attaches securely to closet rods with Velcro straps. The lightweight and collapsible design makes it easy to install and remove.",
@@ -346,8 +346,8 @@ const products = [
         "name": "Magnetic Fridge Organizer",
         "category": "Kitchen Organization",
         "images": [
-            "images/fridge_organizer_1.jpg",
-            "images/fridge_organizer_2.jpg"
+            "Photos/fridge_organizer_1.jpg",
+            "Photos/fridge_organizer_2.jpg"
         ],
         "short_description": "Magnetic shelf for refrigerators.",
         "big_description": "A magnetic fridge organizer with multiple compartments for spices, towels, or utensils. Sticks securely to the fridge surface and is made of sturdy, rust-resistant material. A perfect space-saver for small kitchens.",

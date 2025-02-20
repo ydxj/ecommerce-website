@@ -12,7 +12,7 @@ const Card = (props) => {
   return (
     <div className="card-container">
       <div className="card">
-        <img src='img1.jpg' alt="Product" />
+        <img src={products.images[0]} alt="Product" />
         <h3>{products.name}</h3>
         <p>{products.short_description}</p>
         <h6>{products.price}</h6>
