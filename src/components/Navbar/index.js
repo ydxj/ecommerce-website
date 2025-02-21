@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to='/'>
         <div className="logo">
           <img
-            src={`${process.env.PUBLIC_URL}/Photos/Logo.jpg`}
+            src="/logoboite.png"
             alt="OrgaSpace Logo"
             className="logo-image"
           />
@@ -43,10 +43,12 @@ const Navbar = () => {
 
       <div className={`navbar-right ${menuOpen ? "active" : ""}`}>
         <div className="icon-group">
+        <Link to={`/login`}>
           <div className="icon">
             <i className="fas fa-user"></i>
             <span>Login</span>
           </div>
+          </Link>
           <div className="icon">
             <i className="fas fa-heart"></i>
             <span>Wishlist</span>
@@ -61,7 +63,7 @@ const Navbar = () => {
         <Link to={`/cart`}>
           <div className="cart">
             <i className="fas fa-shopping-cart"></i>
-            <span>0.00 Dh</span>
+            <span>0.00€</span>
             <span className="badge">0</span>
           </div>
         </Link>

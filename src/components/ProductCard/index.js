@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './card.css';
-import { Link } from 'react-router-dom';
 
 const Card = (props) => {
   const products = props.items;
@@ -13,13 +12,11 @@ const Card = (props) => {
   return (
     <div className="card-container">
       <div className="card">
-        <Link style={{textDecoration:'none'}} to={`/products/${products.id}`}>
-          <img src={products.images[0]} alt="Product" />
-          <h3>{products.name}</h3>
-          <p>{products.short_description}</p>
-          <h6>{products.price} Dh</h6>
-          <button>Ajouter Au Panier</button>
-        </Link>
+        <img src={products.images[0]} alt="Product" />
+        <h3>{products.name}</h3>
+        <p>{products.short_description}</p>
+        <h6>{products.price}</h6>
+        <button>Ajouter Au Panier</button>
         <span 
           className={`heart ${liked ? 'liked' : ''}`} 
           onClick={handleHeartClick}

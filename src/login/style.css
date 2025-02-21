@@ -1,0 +1,162 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f4f8;
+  }
+  
+
+  .bg-gradient {
+	background: linear-gradient(to right, #6EE7B7, #3B82F6);
+  }
+  
+  .login-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+  }
+
+  .form-card {
+	
+	background-color: white;
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .form-card:hover {
+	transform: scale(1.05);
+  }
+  
+  
+  
+  h2 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #333;
+	animation: fadeInUp 0.8s forwards;
+  }
+  
+
+  input {
+	width: 100%;
+	padding: 12px;
+	margin: 12px 0;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	outline: none;
+	transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus {
+	border-color: #3B82F6;
+	box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  }
+  
+
+  .login-button1 {
+	width: 100%;
+	padding: 14px;
+	background-color: rgb(38, 163, 38);
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  .login-button1:hover {
+	background-color: #4fe154;
+	transform: translateY(-4px);
+  }
+  
+  .login-button1:disabled {
+	background-color: #A0AEC0;
+	cursor: not-allowed;
+  }
+  
+  .login-button1:active {
+	transform: translateY(2px);
+  }
+  
+
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+
+  @keyframes fadeInUp {
+	from {
+	  transform: translateY(20px);
+	  opacity: 0;
+	}
+	to {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+
+  
+.logo1 {
+	margin-left: 4px;
+	width: 150px; 
+	height: auto;
+
+	transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .logo1:hover {
+	transform: scale(1.1); 
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+	cursor: pointer; 
+  }
+  
+
+  @keyframes fadeInLogo {
+	0% {
+	  opacity: 0;
+	  transform: translateY(-20px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+
+  .logo1 {
+	animation: fadeInLogo 1s ease-out forwards;
+  }
+  
+  .forgot-password-link {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	color:black;
+	font-size: 14px;
+  }
+  
+  .forgot-password-link:hover {
+	text-decoration: underline;
+  }
+  
