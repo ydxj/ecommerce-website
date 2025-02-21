@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import products from "../../context/Data";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,6 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
+        <Link to='/'>
         <div className="logo">
           <img
             src={`${process.env.PUBLIC_URL}/Photos/Logo.jpg`}
@@ -19,6 +21,7 @@ const Navbar = () => {
           />
           <span className="logo-text">OrgaSpace</span>
         </div>
+        </Link>
       </div>
 
       <div className={`navbar-center ${menuOpen ? "active" : ""}`}>
@@ -55,11 +58,14 @@ const Navbar = () => {
             <span className="badge">0</span>
           </div>
         </div>
-        <div className="cart">
-          <i className="fas fa-shopping-cart"></i>
-          <span>0.00€</span>
-          <span className="badge">0</span>
-        </div>
+        <Link to={`/cart`}>
+          <div className="cart">
+            <i className="fas fa-shopping-cart"></i>
+            <span>0.00€</span>
+            <span className="badge">0</span>
+          </div>
+        </Link>
+        
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>

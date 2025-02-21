@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaTrash, FaPlus, FaMinus } from "react-icons/fa";
 import products from "../../context/Data";
 import "./Cart.css";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([
@@ -56,7 +57,9 @@ const Cart = () => {
         <span>Total:</span>
         <span>${totalPrice.toFixed(2)}</span>
       </div>
-      <button className="checkout-btn">Proceed to Checkout</button>
+      <Link to={`/checkout`}>
+        <button className="checkout-btn">Proceed to Checkout</button>
+      </Link>
     </div>
   );
 };
