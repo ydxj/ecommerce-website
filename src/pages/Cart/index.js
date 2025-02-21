@@ -34,7 +34,7 @@ const Cart = () => {
             <img src={item.image} alt={item.name} className="cart-image" />
             <div className="cart-details">
               <h5>{item.name}</h5>
-              <p>${item.price}</p>
+              <p>{item.price}Dh</p>
             </div>
             <div className="cart-actions">
               <button onClick={() => updateQuantity(item.id, -1)} className="quantity-btn">
@@ -55,7 +55,7 @@ const Cart = () => {
       )}
       <div className="cart-total">
         <span>Total:</span>
-        <span>${totalPrice.toFixed(2)}</span>
+        <span>{totalPrice.toFixed(2)}Dh</span>
       </div>
       <Link to={`/checkout`}>
         <button className="checkout-btn">Proceed to Checkout</button>

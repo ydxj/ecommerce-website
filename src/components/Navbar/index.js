@@ -61,7 +61,7 @@ const Navbar = () => {
         <Link to={`/cart`}>
           <div className="cart">
             <i className="fas fa-shopping-cart"></i>
-            <span>0.00€</span>
+            <span>0.00 Dh</span>
             <span className="badge">0</span>
           </div>
         </Link>

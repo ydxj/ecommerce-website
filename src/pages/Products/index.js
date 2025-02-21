@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Products = () => {
   return (
     <div>
-      {products.map((pro)=><Link to={`/products/${pro.id}`}><Card items={pro}/></Link>)}
+      {products.map((pro)=><Card items={pro}/>)}
     </div>
   )
 };
